@@ -39,6 +39,7 @@ def transform_text(text):
 
 
 st.title('Email/SMS Spam Classifier')
+st.write('The app is designed to help users quickly and easily determine whether incoming messages are spam or legitimate. It uses advanced algorithms and machine learning to analyze the content of the message and determine whether it is likely to be spam or not.')
 input_sms = st.text_input('Enter the message')
 
 if st.button('Predict'):
